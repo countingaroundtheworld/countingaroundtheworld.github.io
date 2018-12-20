@@ -1,0 +1,24 @@
+
+body {
+  font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+iframe {
+    width: 640px;
+    height: 480px;
+    margin: 0 auto;
+	border:none;
+	display:block;
+	overflow:hidden;
+}
+
+.footer {
+  padding: 20px;
+  background: white;
+  font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+  font-size: 10px;
+  text-align: center;
+  color: black;
+}
