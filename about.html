@@ -4,9 +4,20 @@
 		<link rel="stylesheet" type="text/css" href="css/about.css">
 	</head>
 	<body>
+	
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+	
 		<div class="row">
 		  <div class="main">
 			<br><h2>Welcome to Counting Around the World.</h2>
+			<div class="fb-like" data-href="https://countingaroundtheworld.github.io/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
 			<p>Numbers are counted differently in parts of the world.
 			This is because of the language spoken and the writing style used are not the same in most of the countries.
 			There are Arabic, Chinese, English, French, Italian, Japanese, Korean, Spanish and hundreds more that we could learn.</p>
