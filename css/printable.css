@@ -21,3 +21,8 @@ iframe {
   text-align: center;
   color: black;
 }
+
+img.logo {
+  width: 25px;
+  height: 25px;
+}

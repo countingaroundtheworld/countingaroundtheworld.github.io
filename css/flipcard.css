@@ -1,4 +1,4 @@
-img:hover {
+img.number:hover {
   animation: shake 1.5s;
   animation-iteration-count: infinite;
 }
@@ -86,4 +86,9 @@ body {
   font-size: 10px;
   text-align: center;
   color: black;
+}
+
+img.logo {
+  width: 25px;
+  height: 25px;
 }
