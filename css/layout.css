@@ -2,33 +2,24 @@
   box-sizing: border-box;
 }
 
-/* Style the body */
 body {
   font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
   margin: 0;
 }
 
-/* Header/logo Title */
-.plain-link a:link, a:visited, a:hover, a:active {
-  text-decoration: none;
-  color: white;
+.banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
 }
 
-.header {
-  padding: 30px;
-  text-align: center;
-  background: tomato;
-  color: white;
-}
-
-/* Style the top navigation bar */
 .navbar {
   display: flex;
-  background-color: turquoise;
+  background-color: purple;
   overflow: hidden;
 }
 
-/* Style the navigation bar links */
 .navbar a {
   color: white;
   padding: 14px 20px;
@@ -37,13 +28,8 @@ body {
   float: left;
 }
 
-.navbar img {
-  align: right;
-}
-
-/* Change color on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: darkturquoise;
+  background-color: RebeccaPurple;
   color: black;
 }
 
@@ -82,27 +68,24 @@ body {
 }
 
 .dropdown-content a:hover {
-  background-color: yellow;
+  background-color: gold;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* Column container */
 .row {  
   display: flex;
   flex-wrap: wrap;
 }
 
-/* Main column */
 .main {
   flex: 20%;
   background-color: white;
   padding: 20px;
 }
 
-/* Footer */
 .footer {
   padding: 20px;
   background: white;
@@ -121,7 +104,6 @@ iframe {
 	overflow: hidden;
 }
 
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
   .row, .navbar {   
     flex-direction: column;
