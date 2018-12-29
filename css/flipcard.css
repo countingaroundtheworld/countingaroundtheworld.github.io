@@ -92,3 +92,9 @@ img.logo {
   width: 25px;
   height: 25px;
 }
+
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
